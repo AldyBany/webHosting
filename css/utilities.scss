@@ -1,5 +1,9 @@
 // Utilities
 $blueColor: #047aed;
+$secondColor: #1c3fa8;
+$darkColor: #002240;
+$lightColor: #f4f4f4;
+
 
 .container{
     max-width: 1100px;
@@ -51,6 +55,60 @@ $blueColor: #047aed;
     border: 1px #fff solid;
 }
 
+// backgrounds
+
+.bg-primary,
+.btn-primary{
+    background-color: $blueColor;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+
+.bg-secondary,
+.btn-secondary{
+    background-color: $blueColor;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+
+}
+
+.bg-dark,
+.btn-dark{
+    background-color: $darkColor;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+
+.bg-light,
+.btn-light{
+    background-color: $blueColor;
+    color: #333;
+}
+
+// Text sizes
+.lead{
+    font-size: 20px;
+}
+.sm{
+    font-size: 1rem;
+}
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+
+.xl{
+    font-size: 4rem;
+}
 
 .grid-3{
     grid-template-columns: repeat(3,1fr);
@@ -59,6 +117,8 @@ $blueColor: #047aed;
 .text-center{
     text-align: center;
 }
+
+// Margin
 
 .my-1{
     margin: 1rem 0;
@@ -96,4 +156,43 @@ $blueColor: #047aed;
 }
 .m-5{
     margin: 4rem;
+}
+
+// Padding
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 1.5rem 0;
+}
+
+.py-3{
+    padding: 2rem 0;
+}
+
+.py-4{
+    padding: 3rem 0;
+}
+.py-5{
+    padding: 4rem 0;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.p-2{
+    padding: 1.5rem;
+}
+
+.p-3{
+    padding: 2rem;
+}
+
+.p-4{
+    padding: 3rem;
+}
+.p-5{
+    padding: 4rem;
 }

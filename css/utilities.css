@@ -63,6 +63,65 @@
   border: 1px #fff solid;
 }
 
+.bg-primary,
+.btn-primary {
+  background-color: #047aed;
+  color: #fff;
+}
+
+.bg-primary a,
+.btn-primary a {
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: #047aed;
+  color: #fff;
+}
+
+.bg-secondary a,
+.btn-secondary a {
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: #002240;
+  color: #fff;
+}
+
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: #047aed;
+  color: #333;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
 .grid-3 {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
@@ -110,5 +169,45 @@
 
 .m-5 {
   margin: 4rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
 }
 /*# sourceMappingURL=utilities.css.map */

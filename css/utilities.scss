@@ -3,6 +3,8 @@ $blueColor: #047aed;
 $secondColor: #1c3fa8;
 $darkColor: #002240;
 $lightColor: #f4f4f4;
+$successColor: #5cb85c;
+$dangerColor: #5cb85c;
 
 
 .container{
@@ -87,8 +89,28 @@ $lightColor: #f4f4f4;
 
 .bg-light,
 .btn-light{
-    background-color: $blueColor;
+    background-color: $lightColor;
     color: #333;
+}
+
+.alert{
+    background-color: $lightColor;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    i{
+        margin-right: 10px;
+    }
+}
+
+.alert-success{
+    background-color: $successColor;
+    color: #fff;
+}
+
+.text-primary{
+    // color:#fff;
+    color: $blueColor;
 }
 
 // Text sizes

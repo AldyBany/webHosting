@@ -98,8 +98,28 @@
 
 .bg-light,
 .btn-light {
-  background-color: #047aed;
+  background-color: #f4f4f4;
   color: #333;
+}
+
+.alert {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.text-primary {
+  color: #047aed;
 }
 
 .lead {
